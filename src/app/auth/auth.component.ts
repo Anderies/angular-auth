@@ -45,7 +45,8 @@ export class AuthComponent {
       this.isLoading = false;
     });
 
-
+ 
+    
     console.log(form.value);
     form.reset();
   }
